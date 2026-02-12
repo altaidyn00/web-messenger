@@ -1,0 +1,41 @@
+:root {
+  --bg-main: #f5f5f5;
+  --bg-panel: #fff;
+  --bg-hover: #f0f0f0;
+  --bg-active: #e8e8e8;
+  --border-color: #e0e0e0;
+  --text-primary: #1a1a1a;
+  --text-secondary: #555;
+  --text-muted: #888;
+  --avatar-bg: #ddd;
+  --accent: #2563eb;
+  --status-online: #22c55e;
+  --status-offline: #94a3b8;
+  --bubble-in: #fff;
+  --bubble-in-text: #1a1a1a;
+  --bubble-out: #2563eb;
+  --bubble-out-text: #fff;
+  --primary: #2563eb;
+  --secondary: #40efe0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  font-size: 16px;
+  color: var(--text-primary);
+  background: var(--bg-main);
+}
+
+#app {
+  height: 100%;
+}

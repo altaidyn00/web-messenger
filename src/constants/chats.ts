@@ -1,0 +1,3 @@
+export const CHATS_FETCH_LIMIT = 5
+
+export const LAST_MESSAGE_PREVIEW_MAX_LENGTH = 40

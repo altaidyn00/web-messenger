@@ -1,0 +1,3 @@
+export const BREAKPOINT_MOBILE = 768
+
+export const SCROLL_THRESHOLD_PX = 120
