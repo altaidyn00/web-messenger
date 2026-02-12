@@ -20,6 +20,7 @@ declare module 'vue' {
     ContactSidebar: typeof import('./src/components/chat/ContactSidebar.vue')['default']
     IconArrowDown: typeof import('~icons/icon/arrow-down')['default']
     IconIconInfoArrow: typeof import('~icons/icon/icon-info-arrow')['default']
+    Info: typeof import('./src/assets/icons/Info.svg')['default']
     InfoMd: typeof import('./src/assets/icons/InfoMd.svg')['default']
     Loader: typeof import('./src/components/ui/Loader.vue')['default']
     MessageInput: typeof import('./src/components/message/MessageInput.vue')['default']
